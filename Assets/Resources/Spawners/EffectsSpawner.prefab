@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2582858563502914528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8802987690322977947}
+  - component: {fileID: 7038490203694264290}
+  m_Layer: 0
+  m_Name: EffectsSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8802987690322977947
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2582858563502914528}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7038490203694264290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2582858563502914528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27e538d86cfaabf4984ee9d038afb656, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traps:
+  - {fileID: 5474523977456115622, guid: e2e7a1714adaac145bd6c579dfe35704, type: 3}
+  - {fileID: 2319073593140436693, guid: ac7f66956aedb4e42ba7686c6a5e3c38, type: 3}
+  - {fileID: 441739898737597338, guid: 463e0bdcf56dc5b4c8112a75bbe784c1, type: 3}
+  - {fileID: 3514843165645362449, guid: 4a36044840d2e234eb90cbb5ebf3904c, type: 3}
+  boosters:
+  - {fileID: 2644374466850659872, guid: 08c9fa40c2380844586075577998542f, type: 3}
+  - {fileID: 2580945030070706607, guid: 647a5856b5007a545809251a4c55e70e, type: 3}
+  - {fileID: 4198278257797361551, guid: d351b24112b98cd48b4d71b69023eb5a, type: 3}
+  - {fileID: 6832943622729028380, guid: fa9766e8e742dc04898691607b3a673b, type: 3}
